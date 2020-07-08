@@ -45,5 +45,8 @@ public class ApplicationTest {
         assertTrue(count == 1);
     }
 	
-	System.out.println("New line added for SCM testing");
+	// method main(): ALWAYS the APPLICATION entry point
+    public static void main (String[] args) {
+    	System.out.println ("Main metod added to check GIT POLL SCM checks");
+	   Application app = new Application();
 }
