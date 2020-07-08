@@ -7,8 +7,7 @@ import static org.junit.Assert.*;
 
 public class ApplicationTest {
 	
-	System.out.println ("Inside ApplicationTest - GIT PollSCM testing");
-    private Application app;
+	    private Application app;
     
     @Before
     public void setup() {
