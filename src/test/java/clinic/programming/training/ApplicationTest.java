@@ -6,6 +6,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ApplicationTest {
+	
+	System.out.println ("Inside ApplicationTest - GIT PollSCM testing");
     private Application app;
     
     @Before
@@ -54,15 +56,4 @@ public class ApplicationTest {
 	   
 	   
 	   
-	   public class Application {
-    
-    public Application() {
-        System.out.println ("Inside Application");
-    }
-
-    // method main(): ALWAYS the APPLICATION entry point
-    public static void main (String[] args) {
-    	System.out.println ("Starting Application");
-	Application app = new Application();
-    }
-}
+	   
