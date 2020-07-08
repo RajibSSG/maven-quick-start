@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 
 public class ApplicationTest {
 	
+	System.out.println ("I am inside ApplicationTest class");
+	
 	    private Application app;
     
     @Before
