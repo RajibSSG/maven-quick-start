@@ -44,4 +44,6 @@ public class ApplicationTest {
         int count = app.countWords("test");
         assertTrue(count == 1);
     }
+	
+	System.out.println ("New line added for SCM testing");
 }
