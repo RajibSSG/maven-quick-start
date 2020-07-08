@@ -45,5 +45,5 @@ public class ApplicationTest {
         assertTrue(count == 1);
     }
 	
-	System.out.println ("New line added for SCM testing");
+	System.out.println("New line added for SCM testing");
 }
